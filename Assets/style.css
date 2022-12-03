@@ -1,0 +1,60 @@
+body{
+    margin:0;
+    padding: 0;
+}
+/* .wrap{
+    background-color: brown;
+    background-size: cover;
+    
+} */
+
+.contentwrap{
+    background-color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.heading{
+    text-align: center;
+    
+}
+
+.heading h4{
+    text-transform: uppercase;
+    font-family:"calibri", sans-serif ;
+
+}
+.heading p.quotes{
+    word-wrap: break-word;
+    font-family: "calibri", sans-serif ;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+}
+.heading p.author{
+    word-wrap: break-word;
+    font-family: "calibri", sans-serif ;
+    font-size: 23px;
+    font-weight: 700;
+    font-style: normal;
+}
+.heading p.author::before{
+    content: " ` " ;
+    color: chocolate;
+    font-size: 25px;
+}
+
+.heading p.author::after{
+    content: " ` " ;
+    color: chocolate;
+    font-size: 25px;
+}
+
+button.submt-qute{
+    background-color: rgb(2, 235, 235);
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-family: "calibri", sans-serif ;
+    font-size: 15px;
+}
